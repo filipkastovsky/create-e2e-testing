@@ -1,6 +1,6 @@
 {
     "name": "create-e2e-testing",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "TS/JS E2E testing library, uses jest + puppeteer",
     "main": "create-e2e-testing.js",
     "module": "create-e2e-testing.js",
