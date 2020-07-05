@@ -1,0 +1,33 @@
+{
+  "name": "e2e-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:local": "BASE_URL=http://localhost:3000 jest || set BASE_URL=http://localhost:3000 && jest",
+    "test": "jest",
+    "clear-cache": "jest --clearCache"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "jest": "^26.1.0",
+    "jest-environment-node": "^26.1.0",
+    "mkdirp": "^1.0.4",
+    "puppeteer": "^4.0.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.1.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "@types/puppeteer": "^3.0.1",
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^3.5.0",
+    "eslint": "^7.3.1",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-plugin-react-hooks": "^4.0.5",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.6"
+  }
+}
